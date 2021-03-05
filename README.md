@@ -127,10 +127,9 @@ states - IDLE and DONE - should be present;
 ingredient has been used or the method has been applied;
 
 Public API
-The remote input file is located here:
-https://gist.githubusercontent.com/LuigiPapinoDrop/d8ed153d5431bbad23e1e1c6b5ba1e3c/raw
-/4ec1c8064e51838240e941679d3ac063460685c2/code_challenge_richer.txt
-The beer list can be accessed through the PUNK API: https://punkapi.com/documentation/v2
+The remote input file is located [here](https://gist.githubusercontent.com/LuigiPapinoDrop/d8ed153d5431bbad23e1e1c6b5ba1e3c/raw
+/4ec1c8064e51838240e941679d3ac063460685c2/code_challenge_richer.txt)
+The beer list can be accessed through the [PUNK API](https://punkapi.com/documentation/v2): 
 Further Requirements for iOS candidates
 1. Use the latest Swift and Xcode version.
 2. Try to minimize the number of dependencies. (Networking libraries are fine.)
