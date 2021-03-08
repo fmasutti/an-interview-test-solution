@@ -8,6 +8,7 @@ class ListBeersViewController: UIViewController, AppCoordinatorProtocol {
     var viewModel: ListBeerViewModel!
     private var binding = Set<AnyCancellable>()
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var lblNoSolutionAvailable: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,15 @@ class ListBeersViewController: UIViewController, AppCoordinatorProtocol {
         viewModel.$beers.receive(on: DispatchQueue.main)
             .sink { (_) in
                 self.tableView.reloadData()
+                self.tableView.isHidden = self.viewModel.noSolution
+                self.lblNoSolutionAvailable.isHidden = !self.viewModel.noSolution
+            }.store(in: &binding)
+        
+        viewModel.$noSolution.receive(on: DispatchQueue.main)
+            .sink { (_) in
+                self.tableView.isHidden = self.viewModel.noSolution
+                self.lblNoSolutionAvailable.isHidden = !self.viewModel.noSolution
+                
             }.store(in: &binding)
     }
 }

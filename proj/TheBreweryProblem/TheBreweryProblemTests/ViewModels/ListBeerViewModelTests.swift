@@ -8,7 +8,7 @@ class ListBeerViewModelTests: XCTestCase {
         super.tearDown()
     }
     
-    func testViewModelInterfaces() {
+    func testViewModelValidListBeers() {
         // Given
         let mockedAPI = MockedAPIService()
         let viewModel = ListBeerViewModel(apiService: mockedAPI)
@@ -19,6 +19,21 @@ class ListBeerViewModelTests: XCTestCase {
         // Then
         XCTAssertEqual(viewModel.beers.count, 5)
         XCTAssertEqual(viewModel.beerBatch.count, 5)
+        XCTAssertEqual(viewModel.noSolution, false)
+    }
+    
+    func testViewModelNoSolution() {
+        // Given
+        let mockedAPI = MockedAPIService()
+        mockedAPI.orders = "order3"
+        let viewModel = ListBeerViewModel(apiService: mockedAPI)
+        
+        // When
+        viewModel.start()
+        
+        // Then
+        XCTAssertEqual(viewModel.beers.count, 0)
+        XCTAssertEqual(viewModel.noSolution, true)
     }
 }
 
@@ -32,7 +47,7 @@ class MockedAPIService: APIService {
         case .getOrders:
             print("Orders are handled just as TEXT")
         case .getBeers(_):
-            model = loadFileAsJson(fileName: beerJson ?? "beers.json")
+            model = loadFileAsJson(fileName: beerJson ?? "beers")
             result(.success((model)))
         }
     }
@@ -49,7 +64,7 @@ class MockedAPIService: APIService {
     }
     
     func loadFileAsJson<T: Decodable>(fileName: String) -> T? {
-        guard let path = Bundle.main.path(forResource: fileName, ofType: nil),
+        guard let path = Bundle.main.path(forResource: fileName, ofType: "json"),
               let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path)) else { return nil}
         
         return try? JSONDecoder().decode(T.self, from: jsonData)

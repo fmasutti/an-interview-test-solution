@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListBeersViewController" customModule="TheBreweryProblem" customModuleProvider="target">
             <connections>
+                <outlet property="lblNoSolutionAvailable" destination="CG3-Y3-64e" id="BML-Ih-GEo"/>
                 <outlet property="tableView" destination="cel-x5-K09" id="fzs-c2-vme"/>
                 <outlet property="view" destination="k1d-nn-VYe" id="g6t-oH-wcD"/>
             </connections>
@@ -27,12 +28,20 @@
                         <outlet property="delegate" destination="-1" id="YLI-tT-KoT"/>
                     </connections>
                 </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No solution exists" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CG3-Y3-64e" userLabel="lblNoSolutionAvailable">
+                    <rect key="frame" x="101" y="436.5" width="212.5" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="0Hw-Vj-9bE"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="CG3-Y3-64e" firstAttribute="centerX" secondItem="0Hw-Vj-9bE" secondAttribute="centerX" id="OEQ-AB-bsv"/>
                 <constraint firstItem="0Hw-Vj-9bE" firstAttribute="trailing" secondItem="cel-x5-K09" secondAttribute="trailing" id="PrU-8d-9CG"/>
                 <constraint firstItem="0Hw-Vj-9bE" firstAttribute="bottom" secondItem="cel-x5-K09" secondAttribute="bottom" id="QfQ-hI-25C"/>
+                <constraint firstItem="CG3-Y3-64e" firstAttribute="centerY" secondItem="0Hw-Vj-9bE" secondAttribute="centerY" id="iQC-LG-2SY"/>
                 <constraint firstItem="cel-x5-K09" firstAttribute="top" secondItem="0Hw-Vj-9bE" secondAttribute="top" id="tNG-VX-HrJ"/>
                 <constraint firstItem="cel-x5-K09" firstAttribute="leading" secondItem="0Hw-Vj-9bE" secondAttribute="leading" id="yz9-zc-LxE"/>
             </constraints>

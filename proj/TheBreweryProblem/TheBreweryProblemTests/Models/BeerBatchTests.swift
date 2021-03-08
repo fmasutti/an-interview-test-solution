@@ -73,6 +73,7 @@ class BeerBatchTests: XCTestCase {
         
         // Then
         XCTAssertNil(beerBatch)
+        debugPrint("testGetNewBatchFromOrderCase3 - No solution exists")
     }
     
     func testGetNewBatchFromOrderCase4() throws {

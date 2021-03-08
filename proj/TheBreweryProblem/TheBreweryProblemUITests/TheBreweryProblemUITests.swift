@@ -32,6 +32,7 @@ class TheBreweryProblemUITests: XCTestCase {
     }
     
     func sampleAppFlow() throws {
+        
         let app = XCUIApplication()
         app.navigationBars["Produced Beers"].staticTexts["Produced Beers"].tap()
         
