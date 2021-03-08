@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BBC659125EEC7DE00CDB6BA"
-               BuildableName = "TheBreweryProblem.app"
-               BlueprintName = "TheBreweryProblem"
-               ReferencedContainer = "container:TheBreweryProblem.xcodeproj">
+               BuildableName = "InterviewTest.app"
+               BlueprintName = "InterviewTest"
+               ReferencedContainer = "container:InterviewTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BBC65A725EEC7E200CDB6BA"
-               BuildableName = "TheBreweryProblemTests.xctest"
-               BlueprintName = "TheBreweryProblemTests"
-               ReferencedContainer = "container:TheBreweryProblem.xcodeproj">
+               BuildableName = "InterviewTestTests.xctest"
+               BlueprintName = "InterviewTestTests"
+               ReferencedContainer = "container:InterviewTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,16 +47,16 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BBC659125EEC7DE00CDB6BA"
-            BuildableName = "TheBreweryProblem.app"
-            BlueprintName = "TheBreweryProblem"
-            ReferencedContainer = "container:TheBreweryProblem.xcodeproj">
+            BuildableName = "InterviewTest.app"
+            BlueprintName = "InterviewTest"
+            ReferencedContainer = "container:InterviewTest.xcodeproj">
          </BuildableReference>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BBC65B225EEC7E200CDB6BA"
-            BuildableName = "TheBreweryProblemUITests.xctest"
-            BlueprintName = "TheBreweryProblemUITests"
-            ReferencedContainer = "container:TheBreweryProblem.xcodeproj">
+            BuildableName = "InterviewTestUITests.xctest"
+            BlueprintName = "InterviewTestUITests"
+            ReferencedContainer = "container:InterviewTest.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -65,9 +65,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BBC65A725EEC7E200CDB6BA"
-               BuildableName = "TheBreweryProblemTests.xctest"
-               BlueprintName = "TheBreweryProblemTests"
-               ReferencedContainer = "container:TheBreweryProblem.xcodeproj">
+               BuildableName = "InterviewTestTests.xctest"
+               BlueprintName = "InterviewTestTests"
+               ReferencedContainer = "container:InterviewTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -75,9 +75,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BBC65B225EEC7E200CDB6BA"
-               BuildableName = "TheBreweryProblemUITests.xctest"
-               BlueprintName = "TheBreweryProblemUITests"
-               ReferencedContainer = "container:TheBreweryProblem.xcodeproj">
+               BuildableName = "InterviewTestUITests.xctest"
+               BlueprintName = "InterviewTestUITests"
+               ReferencedContainer = "container:InterviewTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -97,9 +97,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BBC659125EEC7DE00CDB6BA"
-            BuildableName = "TheBreweryProblem.app"
-            BlueprintName = "TheBreweryProblem"
-            ReferencedContainer = "container:TheBreweryProblem.xcodeproj">
+            BuildableName = "InterviewTest.app"
+            BlueprintName = "InterviewTest"
+            ReferencedContainer = "container:InterviewTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -114,9 +114,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BBC659125EEC7DE00CDB6BA"
-            BuildableName = "TheBreweryProblem.app"
-            BlueprintName = "TheBreweryProblem"
-            ReferencedContainer = "container:TheBreweryProblem.xcodeproj">
+            BuildableName = "InterviewTest.app"
+            BlueprintName = "InterviewTest"
+            ReferencedContainer = "container:InterviewTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

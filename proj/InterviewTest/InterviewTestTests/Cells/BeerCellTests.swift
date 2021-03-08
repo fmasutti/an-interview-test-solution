@@ -1,5 +1,5 @@
 import XCTest
-@testable import TheBreweryProblem
+@testable import InterviewTest
 
 class BeerCellTests: XCTestCase {
 

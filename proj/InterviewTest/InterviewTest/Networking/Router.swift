@@ -19,7 +19,7 @@ enum APIRouter {
         case .getBeers:
             return "api.punkapi.com"
         case .getOrders:
-            return "gist.githubusercontent.com"
+            return "raw.githubusercontent.com"
         }
     }
     
@@ -37,10 +37,12 @@ enum APIRouter {
         case .getBeers:
             return "/\(self.version)/beers"
         case .getOrders:
-            return "/LuigiPapinoDrop/d8ed153d5431bbad23e1e1c6b5ba1e3c/raw/4ec1c8064e51838240e941679d3ac063460685c2/code_challenge_richer.txt"
+//            Richer example
+            return "/fmasutti/an-interview-test-solution/master/proj/InterviewTest/InterviewTestTests/TestResources/order1.txt"
+//            No solution sample
+//            return "/fmasutti/an-interview-test-solution/master/proj/InterviewTest/InterviewTestTests/TestResources/order3.txt"
         }
     }
-    
     
     var headers: Headers? {
         switch self {

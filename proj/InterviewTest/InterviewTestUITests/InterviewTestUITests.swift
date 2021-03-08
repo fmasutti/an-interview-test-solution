@@ -1,14 +1,14 @@
 //
-//  TheBreweryProblemUITests.swift
-//  TheBreweryProblemUITests
+//  InterviewTestUITests.swift
+//  InterviewTestUITests
 //
 //  Created by Frantiesco Masutti on 02/03/2021.
 //
 
 import XCTest
 
-class TheBreweryProblemUITests: XCTestCase {
-
+class InterviewTestUITests: XCTestCase {
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 

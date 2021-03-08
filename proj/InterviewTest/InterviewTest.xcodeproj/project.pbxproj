@@ -19,7 +19,7 @@
 		5BBC659A25EEC7DF00CDB6BA /* ListBeersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC659925EEC7DF00CDB6BA /* ListBeersViewController.swift */; };
 		5BBC659F25EEC7E100CDB6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC659E25EEC7E100CDB6BA /* Assets.xcassets */; };
 		5BBC65A225EEC7E100CDB6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC65A025EEC7E100CDB6BA /* LaunchScreen.storyboard */; };
-		5BBC65B825EEC7E200CDB6BA /* TheBreweryProblemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC65B725EEC7E200CDB6BA /* TheBreweryProblemUITests.swift */; };
+		5BBC65B825EEC7E200CDB6BA /* InterviewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC65B725EEC7E200CDB6BA /* InterviewTestUITests.swift */; };
 		5BBC65CA25EF949F00CDB6BA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC65C925EF949F00CDB6BA /* APIService.swift */; };
 		5BBC65D025EF94CB00CDB6BA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBC65CF25EF94CB00CDB6BA /* Alamofire */; };
 		5BBC65D525EF94E700CDB6BA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC65D425EF94E700CDB6BA /* Router.swift */; };
@@ -70,16 +70,16 @@
 		5B8D962D25F18D3700C07391 /* order3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = order3.txt; sourceTree = "<group>"; };
 		5B8D964925F1AA2100C07391 /* BeerCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCellTests.swift; sourceTree = "<group>"; };
 		5B8D965125F1ADB400C07391 /* BeerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTests.swift; sourceTree = "<group>"; };
-		5BBC659225EEC7DF00CDB6BA /* TheBreweryProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBreweryProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBC659225EEC7DF00CDB6BA /* InterviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBC659525EEC7DF00CDB6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BBC659925EEC7DF00CDB6BA /* ListBeersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBeersViewController.swift; sourceTree = "<group>"; };
 		5BBC659E25EEC7E100CDB6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BBC65A125EEC7E100CDB6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BBC65A325EEC7E100CDB6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BBC65A825EEC7E200CDB6BA /* TheBreweryProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBreweryProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBC65A825EEC7E200CDB6BA /* InterviewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBC65AE25EEC7E200CDB6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BBC65B325EEC7E200CDB6BA /* TheBreweryProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBreweryProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BBC65B725EEC7E200CDB6BA /* TheBreweryProblemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBreweryProblemUITests.swift; sourceTree = "<group>"; };
+		5BBC65B325EEC7E200CDB6BA /* InterviewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBC65B725EEC7E200CDB6BA /* InterviewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewTestUITests.swift; sourceTree = "<group>"; };
 		5BBC65B925EEC7E200CDB6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BBC65C925EF949F00CDB6BA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		5BBC65D425EF94E700CDB6BA /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -162,9 +162,9 @@
 		5BBC658925EEC7DE00CDB6BA = {
 			isa = PBXGroup;
 			children = (
-				5BBC659425EEC7DF00CDB6BA /* TheBreweryProblem */,
-				5BBC65AB25EEC7E200CDB6BA /* TheBreweryProblemTests */,
-				5BBC65B625EEC7E200CDB6BA /* TheBreweryProblemUITests */,
+				5BBC659425EEC7DF00CDB6BA /* InterviewTest */,
+				5BBC65AB25EEC7E200CDB6BA /* InterviewTestTests */,
+				5BBC65B625EEC7E200CDB6BA /* InterviewTestUITests */,
 				5BBC659325EEC7DF00CDB6BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -172,14 +172,14 @@
 		5BBC659325EEC7DF00CDB6BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BBC659225EEC7DF00CDB6BA /* TheBreweryProblem.app */,
-				5BBC65A825EEC7E200CDB6BA /* TheBreweryProblemTests.xctest */,
-				5BBC65B325EEC7E200CDB6BA /* TheBreweryProblemUITests.xctest */,
+				5BBC659225EEC7DF00CDB6BA /* InterviewTest.app */,
+				5BBC65A825EEC7E200CDB6BA /* InterviewTestTests.xctest */,
+				5BBC65B325EEC7E200CDB6BA /* InterviewTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5BBC659425EEC7DF00CDB6BA /* TheBreweryProblem */ = {
+		5BBC659425EEC7DF00CDB6BA /* InterviewTest */ = {
 			isa = PBXGroup;
 			children = (
 				5BBC660F25EF9F3B00CDB6BA /* Extensions */,
@@ -193,10 +193,10 @@
 				5BBC65A025EEC7E100CDB6BA /* LaunchScreen.storyboard */,
 				5BBC65A325EEC7E100CDB6BA /* Info.plist */,
 			);
-			path = TheBreweryProblem;
+			path = InterviewTest;
 			sourceTree = "<group>";
 		};
-		5BBC65AB25EEC7E200CDB6BA /* TheBreweryProblemTests */ = {
+		5BBC65AB25EEC7E200CDB6BA /* InterviewTestTests */ = {
 			isa = PBXGroup;
 			children = (
 				5B8D95D825F1422700C07391 /* TestResources */,
@@ -206,16 +206,16 @@
 				5BBC667725F105D300CDB6BA /* ViewModels */,
 				5BBC65AE25EEC7E200CDB6BA /* Info.plist */,
 			);
-			path = TheBreweryProblemTests;
+			path = InterviewTestTests;
 			sourceTree = "<group>";
 		};
-		5BBC65B625EEC7E200CDB6BA /* TheBreweryProblemUITests */ = {
+		5BBC65B625EEC7E200CDB6BA /* InterviewTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5BBC65B725EEC7E200CDB6BA /* TheBreweryProblemUITests.swift */,
+				5BBC65B725EEC7E200CDB6BA /* InterviewTestUITests.swift */,
 				5BBC65B925EEC7E200CDB6BA /* Info.plist */,
 			);
-			path = TheBreweryProblemUITests;
+			path = InterviewTestUITests;
 			sourceTree = "<group>";
 		};
 		5BBC65C825EF946C00CDB6BA /* Networking */ = {
@@ -323,9 +323,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5BBC659125EEC7DE00CDB6BA /* TheBreweryProblem */ = {
+		5BBC659125EEC7DE00CDB6BA /* InterviewTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BBC65BC25EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "TheBreweryProblem" */;
+			buildConfigurationList = 5BBC65BC25EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "InterviewTest" */;
 			buildPhases = (
 				5BBC658E25EEC7DE00CDB6BA /* Sources */,
 				5BBC658F25EEC7DE00CDB6BA /* Frameworks */,
@@ -335,17 +335,17 @@
 			);
 			dependencies = (
 			);
-			name = TheBreweryProblem;
+			name = InterviewTest;
 			packageProductDependencies = (
 				5BBC65CF25EF94CB00CDB6BA /* Alamofire */,
 			);
 			productName = TheBreweryProblem;
-			productReference = 5BBC659225EEC7DF00CDB6BA /* TheBreweryProblem.app */;
+			productReference = 5BBC659225EEC7DF00CDB6BA /* InterviewTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5BBC65A725EEC7E200CDB6BA /* TheBreweryProblemTests */ = {
+		5BBC65A725EEC7E200CDB6BA /* InterviewTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BBC65BF25EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "TheBreweryProblemTests" */;
+			buildConfigurationList = 5BBC65BF25EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "InterviewTestTests" */;
 			buildPhases = (
 				5BBC65A425EEC7E200CDB6BA /* Sources */,
 				5BBC65A525EEC7E200CDB6BA /* Frameworks */,
@@ -356,16 +356,16 @@
 			dependencies = (
 				5BBC65AA25EEC7E200CDB6BA /* PBXTargetDependency */,
 			);
-			name = TheBreweryProblemTests;
+			name = InterviewTestTests;
 			packageProductDependencies = (
 			);
 			productName = TheBreweryProblemTests;
-			productReference = 5BBC65A825EEC7E200CDB6BA /* TheBreweryProblemTests.xctest */;
+			productReference = 5BBC65A825EEC7E200CDB6BA /* InterviewTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5BBC65B225EEC7E200CDB6BA /* TheBreweryProblemUITests */ = {
+		5BBC65B225EEC7E200CDB6BA /* InterviewTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BBC65C225EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "TheBreweryProblemUITests" */;
+			buildConfigurationList = 5BBC65C225EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "InterviewTestUITests" */;
 			buildPhases = (
 				5BBC65AF25EEC7E200CDB6BA /* Sources */,
 				5BBC65B025EEC7E200CDB6BA /* Frameworks */,
@@ -376,9 +376,9 @@
 			dependencies = (
 				5BBC65B525EEC7E200CDB6BA /* PBXTargetDependency */,
 			);
-			name = TheBreweryProblemUITests;
+			name = InterviewTestUITests;
 			productName = TheBreweryProblemUITests;
-			productReference = 5BBC65B325EEC7E200CDB6BA /* TheBreweryProblemUITests.xctest */;
+			productReference = 5BBC65B325EEC7E200CDB6BA /* InterviewTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -403,7 +403,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5BBC658D25EEC7DE00CDB6BA /* Build configuration list for PBXProject "TheBreweryProblem" */;
+			buildConfigurationList = 5BBC658D25EEC7DE00CDB6BA /* Build configuration list for PBXProject "InterviewTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -419,9 +419,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BBC659125EEC7DE00CDB6BA /* TheBreweryProblem */,
-				5BBC65A725EEC7E200CDB6BA /* TheBreweryProblemTests */,
-				5BBC65B225EEC7E200CDB6BA /* TheBreweryProblemUITests */,
+				5BBC659125EEC7DE00CDB6BA /* InterviewTest */,
+				5BBC65A725EEC7E200CDB6BA /* InterviewTestTests */,
+				5BBC65B225EEC7E200CDB6BA /* InterviewTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -502,7 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBC65B825EEC7E200CDB6BA /* TheBreweryProblemUITests.swift in Sources */,
+				5BBC65B825EEC7E200CDB6BA /* InterviewTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,12 +511,12 @@
 /* Begin PBXTargetDependency section */
 		5BBC65AA25EEC7E200CDB6BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5BBC659125EEC7DE00CDB6BA /* TheBreweryProblem */;
+			target = 5BBC659125EEC7DE00CDB6BA /* InterviewTest */;
 			targetProxy = 5BBC65A925EEC7E200CDB6BA /* PBXContainerItemProxy */;
 		};
 		5BBC65B525EEC7E200CDB6BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5BBC659125EEC7DE00CDB6BA /* TheBreweryProblem */;
+			target = 5BBC659125EEC7DE00CDB6BA /* InterviewTest */;
 			targetProxy = 5BBC65B425EEC7E200CDB6BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -656,12 +656,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC6FBQSHPM;
-				INFOPLIST_FILE = TheBreweryProblem/Info.plist;
+				INFOPLIST_FILE = InterviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.TheBreweryProblem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.InterviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -675,12 +675,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC6FBQSHPM;
-				INFOPLIST_FILE = TheBreweryProblem/Info.plist;
+				INFOPLIST_FILE = InterviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.TheBreweryProblem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.InterviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -694,18 +694,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC6FBQSHPM;
-				INFOPLIST_FILE = TheBreweryProblemTests/Info.plist;
+				INFOPLIST_FILE = InterviewTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.TheBreweryProblemTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.InterviewTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBreweryProblem.app/TheBreweryProblem";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewTest.app/InterviewTest";
 			};
 			name = Debug;
 		};
@@ -716,18 +716,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC6FBQSHPM;
-				INFOPLIST_FILE = TheBreweryProblemTests/Info.plist;
+				INFOPLIST_FILE = InterviewTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.TheBreweryProblemTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.InterviewTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBreweryProblem.app/TheBreweryProblem";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewTest.app/InterviewTest";
 			};
 			name = Release;
 		};
@@ -737,17 +737,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC6FBQSHPM;
-				INFOPLIST_FILE = TheBreweryProblemUITests/Info.plist;
+				INFOPLIST_FILE = InterviewTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.TheBreweryProblemUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.InterviewTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TheBreweryProblem;
+				TEST_TARGET_NAME = InterviewTest;
 			};
 			name = Debug;
 		};
@@ -757,24 +757,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC6FBQSHPM;
-				INFOPLIST_FILE = TheBreweryProblemUITests/Info.plist;
+				INFOPLIST_FILE = InterviewTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.TheBreweryProblemUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frantiescomasutti.InterviewTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TheBreweryProblem;
+				TEST_TARGET_NAME = InterviewTest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5BBC658D25EEC7DE00CDB6BA /* Build configuration list for PBXProject "TheBreweryProblem" */ = {
+		5BBC658D25EEC7DE00CDB6BA /* Build configuration list for PBXProject "InterviewTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BBC65BA25EEC7E200CDB6BA /* Debug */,
@@ -783,7 +783,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BBC65BC25EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "TheBreweryProblem" */ = {
+		5BBC65BC25EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "InterviewTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BBC65BD25EEC7E200CDB6BA /* Debug */,
@@ -792,7 +792,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BBC65BF25EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "TheBreweryProblemTests" */ = {
+		5BBC65BF25EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "InterviewTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BBC65C025EEC7E200CDB6BA /* Debug */,
@@ -801,7 +801,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BBC65C225EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "TheBreweryProblemUITests" */ = {
+		5BBC65C225EEC7E200CDB6BA /* Build configuration list for PBXNativeTarget "InterviewTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BBC65C325EEC7E200CDB6BA /* Debug */,
